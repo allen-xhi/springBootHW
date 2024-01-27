@@ -1,8 +1,11 @@
 package com.Homework.Aaron.Entites;
+
 import org.springframework.jdbc.core.RowMapper;
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
-public class EventRowMapper implements RowMapper<Event>{
+
+public class EventRowMapper implements RowMapper<Event> {
 
     @Override
     public Event mapRow(ResultSet rs, int rowNum) throws SQLException {

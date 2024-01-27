@@ -6,6 +6,6 @@ import org.springframework.stereotype.Component;
 public class BookCourseEvent implements Event {
     @Override
     public String getContent(String message) {
-        return "Book course :"+message;
+        return "Book course :" + message;
     }
 }

@@ -1,14 +1,16 @@
 package com.Homework.Aaron.Entites;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import  java.util.Date;
+
+import java.util.Date;
+
 public class Event {
-    private  Long id;
-    private  String name;
-    @JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd HH:mm:ss")
-    private  Date triggerTime;
-    @JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd HH:mm:ss")
-    private  Date createAt;
+    private Long id;
+    private String name;
+    @JsonFormat(timezone = "GMT+8", pattern = "yyyy-MM-dd HH:mm:ss")
+    private Date triggerTime;
+    @JsonFormat(timezone = "GMT+8", pattern = "yyyy-MM-dd HH:mm:ss")
+    private Date createAt;
 
     public Long getId() {
         return id;
@@ -43,7 +45,7 @@ public class Event {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "Event{" +
                 "id=" + id +
                 ",name=" + name +
