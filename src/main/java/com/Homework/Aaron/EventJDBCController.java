@@ -3,10 +3,8 @@ package com.Homework.Aaron;
 import com.Homework.Aaron.Entites.Event;
 import com.Homework.Aaron.Entites.EventRowMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.web.bind.annotation.*;
-
 import java.sql.Timestamp;
 import java.util.HashMap;
 import java.util.List;
