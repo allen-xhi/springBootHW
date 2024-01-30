@@ -53,13 +53,13 @@ public class EventJDBCController {
         return list;
     }
 
-    @PutMapping("jdbc/events")
-    public String update(@RequestBody Event updatedEvent) {
+    @PutMapping("jdbc/events/{id}")
+    public String update(@PathVariable Integer id,@RequestBody Event updatedEvent) {
         String sql = "UPDATE events " +
                 "SET name = :name, trigger_time = :trigger_time, created_at = :createdAt" +
                 " WHERE id = :id; ";
         Map<String, Object> map = new HashMap<>();
-        map.put("id", updatedEvent.getId());
+        map.put("id", id);
         map.put("name", updatedEvent.getName());
         map.put("trigger_time", updatedEvent.getTriggerTime());
         map.put("createdAt", updatedEvent.getCreateAt());
