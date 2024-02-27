@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+.div0{
+	font-family : 'Noto Sans TC', sans-serif;
+}
+..div4{
+	font-family : 'Noto Sans TC', sans-serif;
+}
+.ALLDIV{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	height: 1200px;
+	background-color:#F5F5F5;
+}
+	.togetherdiv0{
+		width:95%;
+		height:160px;
+		background-color: rgba(0, 0, 0, 0);
+		margin:auto;
+		margin-top:100px;
+		
+	}
+	.togetherList{
+	border-top:1px solid #C0C0C0;
+	border-bottom:1px solid #C0C0C0;
+	margin:auto;
+	width:88%;
+	height:80px;
+	margin-top:10px;
+	margin-left:20px;
+	margin-right:20px;
+	position:relative;
+	border-radius:15px;
+	padding:10px;
+	padding-left:30px;
+	font-size:16px;
+	font-family:微軟正黑體;
+	}
+.togetherList:hover{
+	background-color:rgb(212, 212,212);
+}
+.NeedDetail{
+	outline: none;
+}
+	.togetherdiv1{
+		background-color: rgb(255, 255, 255,);
+			width:80%;
+			height:1000px;
+			margin:auto;
+			margin-top:20px;
+			padding-top:15px;
+			border-radius: 15px;
+				}
+		.together{
+/* 			border:1px soild black; */
+			width:95%;
+			height:95%;
+			margin:auto;
+			overflow:auto;
+			margin-top:15px;
+			background-color: rgba(255, 255, 255, 0.8);
+			padding-top:10px;
+/* 			transform:translateY(8%); */
+			
+		}
+		
+select{
+	border: 1px solid gray;
+	width: 60px;
+	height: 34px;
+	padding:0px;
+	padding-left: 2px;
+	padding-right: 15px;
+	
+	background-color: #F6F7F7;
+	font-size:17px;
+	outline: none;
+	
+}
+		fieldset{
+			width:95%;
+			margin:auto;
+			margin-top:40px;
+			margin-left:30px;
+			border-radius:10px;
+			font-size:16px;
+			font-family:微軟正黑體;
+/* 			font-weight: 550; */
+			border:solid 1px  white;
+			background-color: #ffbb77;
+			height: 170px;
+/* 		box-shadow:  #91DE96 4px 4px 0px 0px; */
+		}
+		.Filterdiv{
+			margin:15px;
+			float:left;
+			font-family:微軟正黑體;
+			height: 25px;
+		}
+		legend{
+			background-color:#0080ff;
+			border-radius:30px;
+			border:1px solid #0080ff;
+			padding:20px;
+			color:white;
+		}
+		#submit{
+			float:right;
+			font-size:15px;
+			padding:10px;
+			border-radius:8px;
+			font-family: 微軟正黑體;
+			font-weight: 900;
+			background-color: #ea7500;
+			border:2px solid  #ea7500;
+			color:white;
+			margin-left:8px;
+			box-shadow:  #bb5e00 0px 3px 0px 0px;
+			outline: none;
+			
+		}
+			#submit1{
+			font-size:15px;
+			padding:10px;
+			border-radius:8px;
+			font-family: 微軟正黑體;
+			font-weight: 900;
+			background-color: #ea7500;
+			border:2px solid  #ea7500;
+			box-shadow: #bb5e00 0px 3px 0px 0px;
+			color:white;
+			outline: none;
+			text-decoration:none;
+		}
+		#submit1:active,#submit:active{
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) inset; 
+			position: relative;
+		  top: 0.5px;
+		  outline: none;
+		}
+		input[type="text"],input[type="radio"]{
+			border-radius:7px;
+			outline: none;
+			font-size:18px;
+			
+		}
+		.ui-datepicker-calendar {
+        display: none;  
+       
+    }
+    .ui-datepicker{
+    	top:150px;
+    }
+    .titlespan{
+    	display:inline-block;
+    	text-align: center;
+    	border-right:1px solid gray;
+    }
+      .titlespanDay{
+      top:10;
+    	display:inline-block;
+    	text-align: right;
+    }
+      .titlespanBudget{
+      top:10;
+    	display:inline-block;
+    	text-align: right;
+    }
+      .titlespanType{
+      top:10;
+    	display:inline-block;
+    	text-align: right;
+    }
+    .titlespanTripname{
+    	display:inline-block;
+    	font-size:20px; 
+    	height: auto;
+    	font-weight:900;
+    	overflow: hidden;
+    }
+    .titleDepart{
+    	position:absolute;
+    	left:10;
+    	bottom:0;
+    }
+
+    

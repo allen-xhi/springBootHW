@@ -1,0 +1,114 @@
+.img1 {
+	width: 50px;
+	height: 50px;
+	right: 0;
+	bottom: 50%;
+	cursor: pointer;
+}
+
+.enter {
+	position: absolute;
+	bottom: 0px;
+	background-color: #2c3e50;
+	width: 350px;
+}
+
+.div6 {
+	display: none;
+    width: 290px;
+    z-index: 100;
+  
+    bottom: 8%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #2c3e50;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.div7 {
+	width: 97%;
+	height: 280px;
+	overflow: auto;
+}
+
+.inp1 {
+	width: 100px;
+	margin-left: 150px;
+	margin-top: 20px;
+	border: 1px black solid;
+	border-radius: 5px;
+}
+
+.inp2 {
+	width: 100px;
+	margin-left: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px black solid;
+	border-radius: 5px;
+}
+
+.header {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height: 50px;
+	width: 350;
+	background-color: #2c3e50;
+}
+
+.Namezoom {
+    padding: 1px;
+    width: 290px;
+    background-color: #2c3e50;
+    margin-right: 5px;
+    margin-left: 5px;
+    bottom: 0;
+    float: left;
+    /* height: 10px; */
+    color: white;
+    
+}
+
+.NewMs{
+background-color:#574b90;
+ border-radius: 10px;
+ width: 15%;
+ display: flex;
+}
+.MSnumber{
+ border-radius: 10px;
+width:65%;
+	flex:0 0 65%;
+	max-width: 65%;
+}
+.count{
+       border-radius: 10px;
+    /* flex: 0 0 35%; */
+    max-width: 35%;
+    padding: 10px;
+    /* border: 2px #D68B00; */
+    background-color: #3742fa;
+    color: azure;
+ 	font-size:15px
+}
+.Namelist {
+	position: fixed;
+	bottom: 0;
+}
+.Xbutton{
+	height: 12px;
+    width: 12px;
+    float: right;
+    padding: 3px;
+}
+.chatwindow{
+	position: fixed;
+    bottom: 60px;
+}
+.Onoff{
+	display: none;
+}

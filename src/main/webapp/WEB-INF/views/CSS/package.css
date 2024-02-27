@@ -1,0 +1,154 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+	font-family : 'Noto Sans TC', sans-serif;
+	font-color: rgb(0, 0, 0);
+}
+a{
+	text-decoration: none;
+	background-color: none;
+	color: rgb(0, 0, 0);
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family : 'Noto Sans TC', sans-serif;
+	font-color: rgb(0, 0, 0);
+}
+a{
+	text-decoration: none;
+	background-color: none;
+	color: rgb(0, 0, 0);
+}
+html, body {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: white;
+}
+
+.header1 {
+	margin: auto;
+}
+
+.div0 {	
+	position: relative;
+	margin: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: white;
+}
+.div1 {
+	width: 85%;
+	height: 50px;
+	margin: auto;
+	top: 0;
+	border-bottom: 5px solid green;
+	position: fixed;
+	z-index: 100;
+	right: 7.5%;
+	left: 7.5%;
+}
+.div2{
+	width: 85%;
+	overflow:hidden;
+	background: no-repeat fixed;
+	margin: auto;
+	clear: both;
+	margin-top: 10px;
+	border-radius: 25px;
+	padding:10px;
+}
+.div3{
+	width:95%;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 10px;
+}
+.div4 {
+	width: 59%;
+	height: 100%;
+	margin: auto;
+	margin-top: 0;
+	border: 0;	
+}
+.div5{
+	width:30%;
+}
+.div6{
+	width:70%;
+}
+.div7{
+	width: 60%;
+	overflow:hidden;
+	background: no-repeat fixed;
+	background-color: rgb(255, 255, 128);
+	margin: auto;
+	clear: both;
+	margin-top: 10px;
+	border-radius: 25px;
+	padding:10px;
+}
+.fie1{
+	width:100%;
+}
+.nav1 {
+	width: 100%;
+	height: 25px;
+	margin: auto;
+	position: static;
+	margin-top: 57px;
+	background-color: rgb(179, 255, 102);
+}
+.header1 {
+	margin: auto;
+}
+.lab0 {
+	float: left;
+	width: 400px;
+	font-family: 'Righteous', cursive;
+	font-size: 50px;
+	color: rgb(0, 0, 0);
+}
+
+.lab1 {
+	float: right;
+	width: 60px;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 1px;
+	margin-right:5px;
+	background-color: rgb(179, 224, 255);
+	border-radius: 5px;
+}
+.label1 {
+	width: 250px;
+	font-size: 20px;
+	margin-top:1px;
+	margin-left: 80px;
+	margin-right: 10px;
+	text-align: center;
+	font-weight: bold;
+	color:rgb(0, 0, 0);	
+	text-decoration: none;
+	border:0;
+}
+
+.img1 {
+	width: 20px;
+	float: right;
+}
+
+.img2 {
+	float: right;
+	height: 80%;
+	margin-top: 15px;
+}

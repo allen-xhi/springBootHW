@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+#selectFormDiv {
+	height: 65px;
+	background-color:#FFF8DC;
+	position: fixed;
+	top: 94px;
+	z-index: 999999;
+	display: table-row;
+	width: 100%;
+	text-align: center;
+	font-family: 微軟正黑體;
+	font-size: 14px;
+
+	
+}
+
+#selectFormRow {
+	width: 100%;
+	margin: 0;
+}
+
+#tripTypeDiv, #departureCityDiv, #arrivalCityDiv, #goDateDiv,
+	#backDateDiv, #classTypeDiv {
+	margin: 0px 5px;
+}
+
+#tripTypeDivLabel, #classTypeDivLabel, #adultDivLabel, #childDivLabel {
+	width: 30px;
+}
+
+#departureCityDivLabel {
+	width: 50px;
+	text-align: left;
+}
+
+#arrivalCityDivLabel {
+	width: 50px;
+}
+
+#goDateDivLabel, #backDateDivLabel {
+	width: 70px;
+}
+
+#adultDiv {
+	margin: 10px 0px 10px 5px;
+}
+
+#childDiv {
+	margin: 10px 10px 10px 0px;
+}
+
+#selectFormSubmit {
+	margin: 10px 0px;
+}
+
+#mainRow {
+	width: 90%;
+	margin: 10px auto;
+	border-radius: 10px;
+	/* 	border: 1px solid gray; */
+	font-family: 微軟正黑體;
+	font-size: 14px;
+	
+}
+
+#mainRowLeft4, #mainRowRight8 {
+	
+	
+	
+}
+#mainRowLeft4{
+margin
+}
+
+
+#timeSliderCardHeader, #selectByAirlineCardHeader,
+	#airlineNameCardHeader {
+	font-weight: bold;
+	
+}
+
+#timeSliderIFrame {
+	width: 275px;
+	height: 350px;
+	border: none;
+}
+
+#pricePerTicketCardHeader, #ticketButtonRow {
+	text-align:right;
+}
+
+.tripAndTime {
+	font-size: 18px;
+}
+
+#arrowBetweenTripAndTime {
+	font-size: 24px;
+	padding-top: 10px;
+}
+
+#planeIconInFlightDetail {
+	font-size: 14px;
+}
+
+#tableOfPriceDetail2, #tableOfBaggageInfo1 {
+	border: 1px solid #dee2e6;
+}
+
+#tableOfBaggageInfo2 {
+	border-bottom: 1px solid #dee2e6;
+}
+
+#tdOfBaggageInfo2No {
+	width: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#tableOfPriceDetail1 {
+	text-align: center;
+	border: 1px solid #dee2e6;
+}
+
+#tableOfPriceDetail1Total {
+	text-align: right;
+}
+
+.tableOfPriceDetail1TotalAmt {
+	color: red;
+}
+
+#tableOfPriceDetail2-1 {
+	width: 100px;
+	text-align: center;
+	background-color: #e9ecef;
+}
+
+#tableOfPriceDetail2-2 {
+	width: 100px;
+	text-align: center;
+	background-color: #e9ecef;
+	padding-top: 32px;
+}
+
+#tableOfPriceDetail2-3 {
+	width: 100px;
+	text-align: center;
+	background-color: #e9ecef;
+	padding-top: 20px;
+}
+.t-line{
+	border-top:2px dotted black;
+	position:relative;
+	margin:2px auto;
+}
+
+t-line:before,.t-line:after{
+	content:'';
+	position:absolute;
+	top:50%;-o-transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	-moz-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	transform:translateY(-50%);
+	width:8px;height:8px;
+	border-radius:100%;
+	background-color:#fff;
+	border:2px #ccc solid
+	}
+	.t-line:before{
+	left:-8px;
+	}
+	.t-line:after{
+	right:-8px;
+	}

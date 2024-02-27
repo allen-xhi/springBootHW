@@ -1,0 +1,18 @@
+		b {	color:blue; }
+		.ui-autocomplete {
+			font-size:14px;
+			border:1px solid #a4bed4;
+			background-color:#e2efff;
+			background:linear-gradient(#e2efff,#d3e7ff);
+			filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#e2efff,endColorStr=#d3e7ff) progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+			border-radius:2px;
+			cursor:pointer;
+			-webkit-user-select:none;
+			-khtml-user-select:none;
+			-moz-user-select:none;
+			-o-user-select:none;
+			user-select:none;
+			-ms-user-select:none;
+			overflow:hidden;
+		}	
+
